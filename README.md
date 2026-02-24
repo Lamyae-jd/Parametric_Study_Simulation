@@ -2,6 +2,8 @@
 
 A Python orchestration framework for running automated parametric studies with [GATE Monte Carlo simulation](http://www.opengatecollaboration.org/). Instead of manually editing `.mac` files for each simulation configuration, this pipeline generates run directories, fills macro templates, and launches GATE sequentially, keeping your results organized and reproducible.
 
+GATE is coupled to [DSAS](https://github.com/DigitalSpadArraySimulator/DigitalSpadArraySimulator) in the configuration. DSAS emulate the behavior of SiPMs.  
+
 ---
 
 ## Why this tool?
