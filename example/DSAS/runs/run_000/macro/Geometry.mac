@@ -1,0 +1,157 @@
+#### scalar  (injected by Python orchestrator — do not edit manually)
+/control/alias size_matrix           30
+/control/alias crystal_material      LYSO
+/control/alias front_material        Bismuth
+/control/alias crystal_depth         2.5
+/control/alias crystal_size          1.2
+/control/alias reflector_depth       0.2
+/control/alias metal_reflector_depth 0.5
+/control/alias pixel_depth           0.01
+/control/alias metal_front_depth     0.1
+/control/alias global_pos_z          -20.0
+/control/alias crystal_depth1        2.7
+/control/alias global_pos_z1         -20.1
+
+#### Intermediate vars (Gate computes — do not modify)
+
+/control/multiply single_reflector_depth {reflector_depth} 0.5
+/control/multiply crystal_center_pos {crystal_size} 0
+/control/multiply half_single_reflector_depth {single_reflector_depth} 0.5
+/control/add reflector_pos {crystal_center_pos} {half_single_reflector_depth}
+/control/add reflector_pos {reflector_pos} 0.0001
+/control/subtract reflector_depth {reflector_depth} 0.0001
+/control/add crystal_reflector_size {crystal_size} {reflector_depth}
+/control/multiply crystal_matrix_size {crystal_reflector_size} {size_matrix}
+
+/control/multiply half_pixel_depth {pixel_depth} 0.5
+/control/multiply half_crystal_depth {crystal_depth} 0.5
+/control/add local_pixel_z_pos {half_crystal_depth} {half_pixel_depth}
+/control/subtract pixel_z_pos {global_pos_z} {local_pixel_z_pos}
+
+/control/multiply half_metal_front_depth {metal_front_depth} 0.5
+/control/add local_metal_front_z_pos {half_crystal_depth} {half_metal_front_depth}
+/control/add metal_front_z_pos {local_metal_front_z_pos} {global_pos_z}
+
+#### End intermediate vars
+
+/gate/world/daughters/name OpticalSystem
+/gate/world/daughters/insert         box
+/gate/OpticalSystem/geometry/setXLength         {crystal_matrix_size} cm
+/gate/OpticalSystem/geometry/setYLength         {crystal_matrix_size} cm
+/gate/OpticalSystem/geometry/setZLength         20.0 cm
+/gate/OpticalSystem/placement/setTranslation    0 0 {global_pos_z} cm
+/gate/OpticalSystem/setMaterial                 Air
+
+/gate/OpticalSystem/daughters/name              crystal
+/gate/OpticalSystem/daughters/insert            box
+/gate/crystal/geometry/setXLength               {crystal_size} mm
+/gate/crystal/geometry/setYLength               {crystal_size} mm
+/gate/crystal/geometry/setZLength               {crystal_depth} mm
+/gate/crystal/placement/setTranslation          0.0 0.0 {global_pos_z} mm
+/gate/crystal/setMaterial                       {crystal_material}
+/gate/crystal/vis/setColor                      yellow
+
+/gate/crystal/attachCrystalSD
+/gate/systems/OpticalSystem/crystal/attach      crystal
+
+/gate/OpticalSystem/daughters/name     pixel
+/gate/OpticalSystem/daughters/insert   box
+/gate/pixel/placement/setTranslation 0 0 {pixel_z_pos} mm
+/gate/pixel/geometry/setXLength        {crystal_size} mm
+/gate/pixel/geometry/setYLength        {crystal_size} mm
+/gate/pixel/geometry/setZLength        {pixel_depth} mm
+/gate/pixel/setMaterial                G4_SILICON_DIOXIDE
+/gate/pixel/vis/setVisible 1
+/gate/pixel/vis/setColor               red
+
+/gate/OpticalSystem/daughters/name     metalFront
+/gate/OpticalSystem/daughters/insert   box
+/gate/metalFront/placement/setTranslation 0 0 {metal_front_z_pos} mm
+/gate/metalFront/geometry/setXLength   {crystal_size} mm
+/gate/metalFront/geometry/setYLength   {crystal_size} mm
+/gate/metalFront/geometry/setZLength   {metal_front_depth} mm
+/gate/metalFront/setMaterial           {front_material}
+/gate/metalFront/vis/setVisible 1
+/gate/metalFront/vis/setColor          green
+
+/gate/OpticalSystem/daughters/name     reflector_N
+/gate/OpticalSystem/daughters/insert   box
+/gate/reflector_N/geometry/setXLength  {crystal_size} mm
+/gate/reflector_N/geometry/setYLength  {single_reflector_depth} mm
+/gate/reflector_N/geometry/setZLength  {crystal_depth1} mm
+/gate/reflector_N/placement/setTranslation 0.0 {reflector_pos} {global_pos_z1} mm
+/gate/reflector_N/setMaterial          PTFE
+/gate/reflector_N/vis/setVisible 1
+/gate/reflector_N/vis/setColor         blue
+
+/gate/OpticalSystem/daughters/name     reflector_S
+/gate/OpticalSystem/daughters/insert   box
+/gate/reflector_S/geometry/setXLength  {crystal_size} mm
+/gate/reflector_S/geometry/setYLength  {single_reflector_depth} mm
+/gate/reflector_S/geometry/setZLength  {crystal_depth1} mm
+/gate/reflector_S/placement/setTranslation 0.0 -{reflector_pos} {global_pos_z1} mm
+/gate/reflector_S/setMaterial          PTFE
+/gate/reflector_S/vis/setVisible 1
+/gate/reflector_S/vis/setColor         blue
+
+/gate/OpticalSystem/daughters/name     reflector_E
+/gate/OpticalSystem/daughters/insert   box
+/gate/reflector_E/geometry/setXLength  {single_reflector_depth} mm
+/gate/reflector_E/geometry/setYLength  {crystal_size} mm
+/gate/reflector_E/geometry/setZLength  {crystal_depth} mm
+/gate/reflector_E/placement/setTranslation {reflector_pos} 0.0 {global_pos_z} mm
+/gate/reflector_E/setMaterial          PTFE
+/gate/reflector_E/vis/setVisible 1
+/gate/reflector_E/vis/setColor         blue
+
+/gate/OpticalSystem/daughters/name     reflector_W
+/gate/OpticalSystem/daughters/insert   box
+/gate/reflector_W/geometry/setXLength  {single_reflector_depth} mm
+/gate/reflector_W/geometry/setYLength  {crystal_size} mm
+/gate/reflector_W/geometry/setZLength  {crystal_depth} mm
+/gate/reflector_W/placement/setTranslation -{reflector_pos} 0.0 {global_pos_z} mm
+/gate/reflector_W/setMaterial          PTFE
+/gate/reflector_W/vis/setVisible 1
+/gate/reflector_W/vis/setColor         blue
+
+/gate/crystal/repeaters/insert cubicArray
+/gate/crystal/cubicArray/setRepeatNumberX {size_matrix}
+/gate/crystal/cubicArray/setRepeatNumberY {size_matrix}
+/gate/crystal/cubicArray/setRepeatNumberZ 1
+/gate/crystal/cubicArray/setRepeatVector {crystal_reflector_size} {crystal_reflector_size} 0 mm
+
+/gate/reflector_N/repeaters/insert cubicArray
+/gate/reflector_N/cubicArray/setRepeatNumberX {size_matrix}
+/gate/reflector_N/cubicArray/setRepeatNumberY {size_matrix}
+/gate/reflector_N/cubicArray/setRepeatNumberZ 1
+/gate/reflector_N/cubicArray/setRepeatVector {crystal_reflector_size} {crystal_reflector_size} 0 mm
+
+/gate/reflector_S/repeaters/insert cubicArray
+/gate/reflector_S/cubicArray/setRepeatNumberX {size_matrix}
+/gate/reflector_S/cubicArray/setRepeatNumberY {size_matrix}
+/gate/reflector_S/cubicArray/setRepeatNumberZ 1
+/gate/reflector_S/cubicArray/setRepeatVector {crystal_reflector_size} {crystal_reflector_size} 0 mm
+
+/gate/reflector_E/repeaters/insert cubicArray
+/gate/reflector_E/cubicArray/setRepeatNumberX {size_matrix}
+/gate/reflector_E/cubicArray/setRepeatNumberY {size_matrix}
+/gate/reflector_E/cubicArray/setRepeatNumberZ 1
+/gate/reflector_E/cubicArray/setRepeatVector {crystal_reflector_size} {crystal_reflector_size} 0 mm
+
+/gate/reflector_W/repeaters/insert cubicArray
+/gate/reflector_W/cubicArray/setRepeatNumberX {size_matrix}
+/gate/reflector_W/cubicArray/setRepeatNumberY {size_matrix}
+/gate/reflector_W/cubicArray/setRepeatNumberZ 1
+/gate/reflector_W/cubicArray/setRepeatVector {crystal_reflector_size} {crystal_reflector_size} 0 mm
+
+/gate/pixel/repeaters/insert cubicArray
+/gate/pixel/cubicArray/setRepeatNumberX {size_matrix}
+/gate/pixel/cubicArray/setRepeatNumberY {size_matrix}
+/gate/pixel/cubicArray/setRepeatNumberZ 1
+/gate/pixel/cubicArray/setRepeatVector {crystal_reflector_size} {crystal_reflector_size} 0 mm
+
+/gate/metalFront/repeaters/insert cubicArray
+/gate/metalFront/cubicArray/setRepeatNumberX {size_matrix}
+/gate/metalFront/cubicArray/setRepeatNumberY {size_matrix}
+/gate/metalFront/cubicArray/setRepeatNumberZ 1
+/gate/metalFront/cubicArray/setRepeatVector {crystal_reflector_size} {crystal_reflector_size} 0 mm

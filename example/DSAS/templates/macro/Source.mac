@@ -1,0 +1,20 @@
+/gate/source/addSource                           Mysource pulsed
+/gate/source/Mysource/setTimeHist                {{ENERGY_HIST_FILE}}
+/gate/source/Mysource/setFrequency               {{SOURCE_FREQUENCY}} Hz
+
+/gate/source/Mysource/gps/verbose 2
+/gate/source/Mysource/gps/particle               gamma
+/gate/source/Mysource/gps/energytype             Arb
+/gate/source/Mysource/gps/type                   Volume
+/gate/source/Mysource/gps/shape                  Sphere
+/gate/source/Mysource/gps/radius                 {{SOURCE_RADIUS}} mm
+/gate/source/Mysource/setActivity                {{SOURCE_ACTIVITY}} becquerel
+/gate/source/Mysource/gps/energy                 {{SOURCE_ENERGY}} keV
+/gate/source/Mysource/gps/direction              {{SOURCE_DIR_X}} {{SOURCE_DIR_Y}} {{SOURCE_DIR_Z}}
+/gate/source/Mysource/gps/centre                 {{SOURCE_POS_X}} {{SOURCE_POS_Y}} {{SOURCE_POS_Z}} mm
+/gate/source/Mysource/gps/angtype iso
+/gate/source/Mysource/gps/mintheta               {{SOURCE_MINTHETA}} deg
+/gate/source/Mysource/gps/maxtheta               {{SOURCE_MAXTHETA}} deg
+/gate/source/Mysource/gps/minphi                 {{SOURCE_MINPHI}} deg
+/gate/source/Mysource/gps/maxphi                 {{SOURCE_MAXPHI}} deg
+/gate/source/list

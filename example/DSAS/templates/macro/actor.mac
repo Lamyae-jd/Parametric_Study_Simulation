@@ -1,0 +1,5 @@
+/gate/output/fastanalysis/enable
+/gate/actor/addActor  SPAD               main_actor
+/gate/actor/main_actor/attachTo                       pixel
+/gate/actor/main_actor/SPAD_config/ConfigPath         {{SPAD_CONFIG_PATH}}
+/gate/actor/main_actor/SPAD_config/ExportPath         {{SPAD_EXPORT_PATH}}

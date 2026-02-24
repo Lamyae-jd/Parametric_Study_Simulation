@@ -1,0 +1,133 @@
+#=====================================================
+# VISUALISATION and VERBOSE
+#=====================================================
+#/control/execute                    ./macro/Visualisation.mac
+#/vis/disable
+/control/execute                    ./macro/Verbose.mac
+
+#=====================================================
+# GEOMETRY
+#=====================================================
+
+#/gate/geometry/setMaterialDatabase    /app/files/example/GateMaterials.db
+#/gate/geometry/setMaterialDatabase    /app/files/Materials.xml
+/gate/geometry/setMaterialDatabase    ./GateMaterials.db
+#=====================================================
+#     W O R L D
+#=====================================================
+
+/gate/world/geometry/setXLength       100. cm
+/gate/world/geometry/setYLength       100. cm
+/gate/world/geometry/setZLength       100. cm
+/gate/world/setMaterial               Air
+/gate/world/vis/setVisible 1
+/gate/world/vis/setColor              yellow
+
+#=======================================================
+#                   G E O M E T R Y
+#=======================================================
+
+/control/execute                    ./macro/Geometry.mac
+
+#=======================================================
+#                   PHANTOM
+#=======================================================
+
+/control/execute                    ./macro/Dorenzo.mac
+
+#=====================================================
+#                  P H Y S I C S
+#=====================================================
+
+/gate/physics/addProcess PhotoElectric
+/gate/physics/processes/PhotoElectric/setModel StandardModel
+/gate/physics/addProcess Compton
+/gate/physics/processes/Compton/setModel StandardModel
+
+/gate/physics/addProcess RayleighScattering
+/gate/physics/processes/RayleighScattering/setModel PenelopeModel
+
+/gate/physics/addProcess ElectronIonisation
+/gate/physics/processes/ElectronIonisation/setModel StandardModel e-
+/gate/physics/processes/ElectronIonisation/setModel StandardModel e+
+
+/gate/physics/addProcess Bremsstrahlung
+/gate/physics/processes/Bremsstrahlung/setModel StandardModel e-
+/gate/physics/processes/Bremsstrahlung/setModel StandardModel e+
+
+/gate/physics/addProcess eMultipleScattering e+
+/gate/physics/addProcess eMultipleScattering e-
+
+/gate/physics/processList Enabled
+/gate/physics/processList Initialized
+
+/control/execute ./macro/actor.mac
+
+#=====================================================
+# INITIALISATION
+#=====================================================
+
+/gate/run/initialize
+
+#===============================================================
+# Optical photons Detection Surface
+#===============================================================
+
+/gate/crystal/surfaces/name                         surface1
+/gate/crystal/surfaces/insert                       OpticalSystem
+/gate/crystal/surfaces/surface1/setSurface          RoughTeflon_LUT
+
+/gate/OpticalSystem/surfaces/name                   surface2
+/gate/OpticalSystem/surfaces/insert                 crystal
+/gate/OpticalSystem/surfaces/surface2/setSurface    RoughTeflon_LUT
+
+/gate/crystal/surfaces/name                         Detection1
+/gate/crystal/surfaces/insert                       pixel
+/gate/crystal/surfaces/Detection1/setSurface        Detector_LUT
+
+/gate/pixel/surfaces/name                           Detection2
+/gate/pixel/surfaces/insert                         crystal
+/gate/pixel/surfaces/Detection2/setSurface          Detector_LUT
+
+#=====================================================
+#  S O U R C E
+#=====================================================
+
+/control/execute ./macro/Source.mac
+
+#=====================================================
+#   R A N D O M
+#=====================================================
+
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed 6
+/gate/random/verbose 0
+
+#======================================================
+#    O U T P U T
+#======================================================
+
+/gate/output/root/enable
+/gate/output/root/setFileName output/run_000
+/gate/output/root/setRootHitFlag 1
+/gate/output/root/setRootSinglesFlag 1
+/gate/output/root/setRootNtupleFlag 1
+/gate/output/root/setRootOpticalFlag 1
+
+/gate/output/ascii/enable
+/gate/output/ascii/setFileName output/run_000_ascii
+/gate/output/ascii/setOutFileHitsFlag 0
+/gate/output/ascii/setOutFileSinglesFlag 1
+
+#======================================================
+#   D I G I T I Z E R
+#======================================================
+
+/gate/digitizer/Singles/insert thresholder
+/gate/digitizer/Singles/thresholder/setThreshold 1 keV
+
+#=======================================================
+# A C Q U I S I T I O N
+#=======================================================
+
+/control/execute                        ./macro/StartDAQ.mac
