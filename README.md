@@ -31,7 +31,7 @@ Gate --version
 ## Project Structure
 
 ```
-Parametric_Study_Gate_Simulation/
+Parametric_Study_Gate_Simulation/example/DSAS/
 ├── templates/                  # Your .mac files with {{PLACEHOLDER}} tokens
 │   ├── main.mac                # Entry point called by Gate
 │   ├── geometry.mac
