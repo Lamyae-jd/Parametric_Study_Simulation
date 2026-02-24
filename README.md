@@ -1,12 +1,12 @@
 # Parametric_Study_Gate_Simulation
 
-A Python orchestration framework for running automated parametric studies with [GATE Monte Carlo simulation](http://www.opengatecollaboration.org/). Instead of manually editing `.mac` files for each simulation configuration, this pipeline generates run directories, fills macro templates, and launches GATE sequentially — keeping your results organized and reproducible.
+A Python orchestration framework for running automated parametric studies with [GATE Monte Carlo simulation](http://www.opengatecollaboration.org/). Instead of manually editing `.mac` files for each simulation configuration, this pipeline generates run directories, fills macro templates, and launches GATE sequentially, keeping your results organized and reproducible.
 
 ---
 
 ## Why this tool?
 
-GATE simulations involve multiple interdependent macro files. Running a parametric study by hand means editing files, renaming outputs, and tracking configurations — a process that is error-prone and hard to reproduce. This pipeline automates all of that:
+GATE simulations involve multiple interdependent macro files. Running a parametric study by hand means editing files, renaming outputs, and tracking configurations: a process that is error-prone and hard to reproduce. This pipeline automates all of that:
 
 - Define all your configurations once in `params.py`
 - Run a single command to launch the full study
