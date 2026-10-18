@@ -1,0 +1,1666 @@
+[
+ {
+  "label": "1.2mm_100kVp_direct",
+  "n_incident": 402084,
+  "n_events": 299218,
+  "first_is_direct_or_penetration": 0.9947596735490511,
+  "events_with_one_primary_crystal": 0.9947596735490511,
+  "events_with_no_primary_crystal": 0.005240326450948807,
+  "multi_crystal_events": 0.06724194400069515,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7409148337163379,
+      "ref": 0.7409148337163379
+     },
+     "true_count": {
+      "mine": 0.7409148337163379,
+      "ref": 0.7409148337163379
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7407954556759284,
+      "ref": 0.740723331443181
+     },
+     "true_count": {
+      "mine": 0.7263755832114682,
+      "ref": 0.7262910237661782
+     },
+     "false_counts": {
+      "mine": 0.06210891256553357,
+      "ref": 0.06212632186309328
+     },
+     "misplaced": {
+      "mine": 0.0763541505797987,
+      "ref": 0.07631793656176449
+     }
+    },
+    "windows": {
+     "photons": 297862,
+     "ics_pool": 20115,
+     "ics_pool_multi_hit": 18843,
+     "visible_hits": 317037,
+     "hits_outside_window": 74,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.6995652649695089,
+      "ref": 0.6995652649695089
+     },
+     "true_count": {
+      "mine": 0.6995652649695089,
+      "ref": 0.6995652649695089
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.6996199799046965,
+      "ref": 0.6994210165040141
+     },
+     "true_count": {
+      "mine": 0.6618343430725918,
+      "ref": 0.6616030481192985
+     },
+     "false_counts": {
+      "mine": 0.05937316580614996,
+      "ref": 0.059343321296047594
+     },
+     "misplaced": {
+      "mine": 0.08028623634049753,
+      "ref": 0.08022017878858996
+     }
+    },
+    "windows": {
+     "photons": 281306,
+     "ics_pool": 19946,
+     "ics_pool_multi_hit": 8651,
+     "visible_hits": 289986,
+     "hits_outside_window": 26,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "1.2mm_100kVp_water20",
+  "n_incident": 402030,
+  "n_events": 299454,
+  "first_is_direct_or_penetration": 0.9961095861133931,
+  "events_with_one_primary_crystal": 0.9961095861133931,
+  "events_with_no_primary_crystal": 0.003890413886606958,
+  "multi_crystal_events": 0.10251991958698164,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7416088351615551,
+      "ref": 0.7416088351615551
+     },
+     "true_count": {
+      "mine": 0.7416088351615551,
+      "ref": 0.7416088351615551
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7415665497599682,
+      "ref": 0.7415466507474566
+     },
+     "true_count": {
+      "mine": 0.7284356888789394,
+      "ref": 0.7283660423351491
+     },
+     "false_counts": {
+      "mine": 0.08763773847722807,
+      "ref": 0.08761535208815263
+     },
+     "misplaced": {
+      "mine": 0.10313216964297693,
+      "ref": 0.1031416457581409
+     }
+    },
+    "windows": {
+     "photons": 298132,
+     "ics_pool": 30696,
+     "ics_pool_multi_hit": 29402,
+     "visible_hits": 328086,
+     "hits_outside_window": 86,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.6923662413252742,
+      "ref": 0.6923662413252742
+     },
+     "true_count": {
+      "mine": 0.6923662413252742,
+      "ref": 0.6923662413252742
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.6919185135437654,
+      "ref": 0.6920453697485263
+     },
+     "true_count": {
+      "mine": 0.649357013158222,
+      "ref": 0.6497052458771734
+     },
+     "false_counts": {
+      "mine": 0.08314802377931996,
+      "ref": 0.08312315001368058
+     },
+     "misplaced": {
+      "mine": 0.10969831614972032,
+      "ref": 0.10968899048604897
+     }
+    },
+    "windows": {
+     "photons": 278172,
+     "ics_pool": 30444,
+     "ics_pool_multi_hit": 16264,
+     "visible_hits": 294489,
+     "hits_outside_window": 42,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "1.2mm_120kVp_direct",
+  "n_incident": 402791,
+  "n_events": 299187,
+  "first_is_direct_or_penetration": 0.9950866849161227,
+  "events_with_one_primary_crystal": 0.9950933696985498,
+  "events_with_no_primary_crystal": 0.0049066303014502636,
+  "multi_crystal_events": 0.08103961736305387,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7397757149489438,
+      "ref": 0.7397757149489438
+     },
+     "true_count": {
+      "mine": 0.7397757149489438,
+      "ref": 0.7397757149489438
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7397111653438135,
+      "ref": 0.7398303338455924
+     },
+     "true_count": {
+      "mine": 0.725689004967837,
+      "ref": 0.7258007254382546
+     },
+     "false_counts": {
+      "mine": 0.07221114672373513,
+      "ref": 0.07224590420342063
+     },
+     "misplaced": {
+      "mine": 0.08087290106696113,
+      "ref": 0.0807290006275231
+     }
+    },
+    "windows": {
+     "photons": 297949,
+     "ics_pool": 24241,
+     "ics_pool_multi_hit": 23028,
+     "visible_hits": 321387,
+     "hits_outside_window": 74,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.6990250526948218,
+      "ref": 0.6990250526948218
+     },
+     "true_count": {
+      "mine": 0.6990250526948218,
+      "ref": 0.6990250526948218
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.6987519582115788,
+      "ref": 0.6988537479735148
+     },
+     "true_count": {
+      "mine": 0.660583280162665,
+      "ref": 0.6608042384263799
+     },
+     "false_counts": {
+      "mine": 0.06887442867392767,
+      "ref": 0.06889180741377042
+     },
+     "misplaced": {
+      "mine": 0.0850272338701941,
+      "ref": 0.08483011950606056
+     }
+    },
+    "windows": {
+     "photons": 281451,
+     "ics_pool": 24052,
+     "ics_pool_multi_hit": 12317,
+     "visible_hits": 293819,
+     "hits_outside_window": 32,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "1.2mm_120kVp_water20",
+  "n_incident": 403226,
+  "n_events": 299316,
+  "first_is_direct_or_penetration": 0.9961044514827139,
+  "events_with_one_primary_crystal": 0.9961111333841158,
+  "events_with_no_primary_crystal": 0.003888866615884216,
+  "multi_crystal_events": 0.1144910395702201,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7397315649288488,
+      "ref": 0.7397315649288488
+     },
+     "true_count": {
+      "mine": 0.7397315649288488,
+      "ref": 0.7397315649288488
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7397762049074217,
+      "ref": 0.7396918849478952
+     },
+     "true_count": {
+      "mine": 0.7273886108534668,
+      "ref": 0.7272894109010828
+     },
+     "false_counts": {
+      "mine": 0.09621651381607337,
+      "ref": 0.09624379380297897
+     },
+     "misplaced": {
+      "mine": 0.09794265446853304,
+      "ref": 0.09760848646999461
+     }
+    },
+    "windows": {
+     "photons": 298297,
+     "ics_pool": 34267,
+     "ics_pool_multi_hit": 33115,
+     "visible_hits": 332099,
+     "hits_outside_window": 112,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.6977873450620744,
+      "ref": 0.6977873450620744
+     },
+     "true_count": {
+      "mine": 0.6977873450620744,
+      "ref": 0.6977873450620744
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.6973161452882503,
+      "ref": 0.6973781452584903
+     },
+     "true_count": {
+      "mine": 0.658717443815627,
+      "ref": 0.6588340037596782
+     },
+     "false_counts": {
+      "mine": 0.09140531612544826,
+      "ref": 0.09141275612187706
+     },
+     "misplaced": {
+      "mine": 0.10320582126497282,
+      "ref": 0.10284102830359779
+     }
+    },
+    "windows": {
+     "photons": 281176,
+     "ics_pool": 34051,
+     "ics_pool_multi_hit": 21206,
+     "visible_hits": 302469,
+     "hits_outside_window": 65,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "1.2mm_140kVp_direct",
+  "n_incident": 403778,
+  "n_events": 299119,
+  "first_is_direct_or_penetration": 0.9953396474312899,
+  "events_with_one_primary_crystal": 0.9953530200355043,
+  "events_with_no_primary_crystal": 0.004646979964495736,
+  "multi_crystal_events": 0.09031188256178979,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.737885669848283,
+      "ref": 0.737885669848283
+     },
+     "true_count": {
+      "mine": 0.737885669848283,
+      "ref": 0.737885669848283
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7378386142880494,
+      "ref": 0.7378064183784159
+     },
+     "true_count": {
+      "mine": 0.7242643234648742,
+      "ref": 0.7242445105974075
+     },
+     "false_counts": {
+      "mine": 0.07883292304186955,
+      "ref": 0.07880072713223603
+     },
+     "misplaced": {
+      "mine": 0.08147071558758472,
+      "ref": 0.08147091403443993
+     }
+    },
+    "windows": {
+     "photons": 297923,
+     "ics_pool": 27011,
+     "ics_pool_multi_hit": 25815,
+     "visible_hits": 324273,
+     "hits_outside_window": 83,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.6976754553244605,
+      "ref": 0.6976754553244605
+     },
+     "true_count": {
+      "mine": 0.6976754553244605,
+      "ref": 0.6976754553244605
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.697214806155858,
+      "ref": 0.6973460664028253
+     },
+     "true_count": {
+      "mine": 0.6594415743304489,
+      "ref": 0.6596520860472834
+     },
+     "false_counts": {
+      "mine": 0.07517249577738262,
+      "ref": 0.07521212151231617
+     },
+     "misplaced": {
+      "mine": 0.0855924978687127,
+      "ref": 0.08556928398674589
+     }
+    },
+    "windows": {
+     "photons": 281520,
+     "ics_pool": 26859,
+     "ics_pool_multi_hit": 15027,
+     "visible_hits": 296621,
+     "hits_outside_window": 49,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "1.2mm_140kVp_water20",
+  "n_incident": 405573,
+  "n_events": 299019,
+  "first_is_direct_or_penetration": 0.9958230079025079,
+  "events_with_one_primary_crystal": 0.9958363849788809,
+  "events_with_no_primary_crystal": 0.0041636150211190595,
+  "multi_crystal_events": 0.12233336343175517,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7350637246562272,
+      "ref": 0.7350637246562272
+     },
+     "true_count": {
+      "mine": 0.7350637246562272,
+      "ref": 0.7350637246562272
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7350513964193869,
+      "ref": 0.7349650987615053
+     },
+     "true_count": {
+      "mine": 0.7227354878160035,
+      "ref": 0.7226738466318025
+     },
+     "false_counts": {
+      "mine": 0.10187561795287162,
+      "ref": 0.10187808360023966
+     },
+     "misplaced": {
+      "mine": 0.09098441216032631,
+      "ref": 0.09063277889976584
+     }
+    },
+    "windows": {
+     "photons": 298117,
+     "ics_pool": 36577,
+     "ics_pool_multi_hit": 35479,
+     "visible_hits": 334440,
+     "hits_outside_window": 104,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.6977165639724537,
+      "ref": 0.6977165639724537
+     },
+     "true_count": {
+      "mine": 0.6977165639724537,
+      "ref": 0.6977165639724537
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.6973689076935595,
+      "ref": 0.6972776787409418
+     },
+     "true_count": {
+      "mine": 0.6614986697832449,
+      "ref": 0.6614740133095645
+     },
+     "false_counts": {
+      "mine": 0.0967298118957623,
+      "ref": 0.0967741935483871
+     },
+     "misplaced": {
+      "mine": 0.09523961051358748,
+      "ref": 0.09489846073331754
+     }
+    },
+    "windows": {
+     "photons": 282834,
+     "ics_pool": 36368,
+     "ics_pool_multi_hit": 24539,
+     "visible_hits": 307517,
+     "hits_outside_window": 60,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.0
+ },
+ {
+  "label": "1.2mm_80kVp_direct",
+  "n_incident": 402194,
+  "n_events": 299115,
+  "first_is_direct_or_penetration": 0.9941326914397473,
+  "events_with_one_primary_crystal": 0.9941326914397473,
+  "events_with_no_primary_crystal": 0.005867308560252746,
+  "multi_crystal_events": 0.046754592715176437,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.739754944131439,
+      "ref": 0.739754944131439
+     },
+     "true_count": {
+      "mine": 0.739754944131439,
+      "ref": 0.739754944131439
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7398369940874304,
+      "ref": 0.7398369940874304
+     },
+     "true_count": {
+      "mine": 0.7242624206228835,
+      "ref": 0.7242475024490669
+     },
+     "false_counts": {
+      "mine": 0.04744476546144398,
+      "ref": 0.04743233364993013
+     },
+     "misplaced": {
+      "mine": 0.061903897727501864,
+      "ref": 0.06187365152340048
+     }
+    },
+    "windows": {
+     "photons": 297558,
+     "ics_pool": 13985,
+     "ics_pool_multi_hit": 12665,
+     "visible_hits": 310376,
+     "hits_outside_window": 42,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.701698682725252,
+      "ref": 0.701698682725252
+     },
+     "true_count": {
+      "mine": 0.701698682725252,
+      "ref": 0.701698682725252
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.701527123726361,
+      "ref": 0.7014773964803055
+     },
+     "true_count": {
+      "mine": 0.6646170753417505,
+      "ref": 0.6644902708643092
+     },
+     "false_counts": {
+      "mine": 0.045619775531211305,
+      "ref": 0.045607343719697456
+     },
+     "misplaced": {
+      "mine": 0.06474215842636895,
+      "ref": 0.06469003650799277
+     }
+    },
+    "windows": {
+     "photons": 282150,
+     "ics_pool": 13829,
+     "ics_pool_multi_hit": 3492,
+     "visible_hits": 285653,
+     "hits_outside_window": 11,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.0
+ },
+ {
+  "label": "1.2mm_80kVp_water20",
+  "n_incident": 402102,
+  "n_events": 299320,
+  "first_is_direct_or_penetration": 0.995352799679273,
+  "events_with_one_primary_crystal": 0.995352799679273,
+  "events_with_no_primary_crystal": 0.004647200320726981,
+  "multi_crystal_events": 0.0817519711345717,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7396357143212419,
+      "ref": 0.7396357143212419
+     },
+     "true_count": {
+      "mine": 0.7396357143212419,
+      "ref": 0.7396357143212419
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7395461847988819,
+      "ref": 0.7396207927341819
+     },
+     "true_count": {
+      "mine": 0.7248285260953689,
+      "ref": 0.7249329772047889
+     },
+     "false_counts": {
+      "mine": 0.0721284649168619,
+      "ref": 0.07211105639862522
+     },
+     "misplaced": {
+      "mine": 0.09321626374956704,
+      "ref": 0.09327074710073537
+     }
+    },
+    "windows": {
+     "photons": 297373,
+     "ics_pool": 24463,
+     "ics_pool_multi_hit": 22786,
+     "visible_hits": 320458,
+     "hits_outside_window": 82,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.6806108897742363,
+      "ref": 0.6806108897742363
+     },
+     "true_count": {
+      "mine": 0.6806108897742363,
+      "ref": 0.6806108897742363
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.6800936080894897,
+      "ref": 0.6802428239600897
+     },
+     "true_count": {
+      "mine": 0.6310562991479773,
+      "ref": 0.631245305917404
+     },
+     "false_counts": {
+      "mine": 0.06886063735072195,
+      "ref": 0.06885566348836862
+     },
+     "misplaced": {
+      "mine": 0.10052035528966932,
+      "ref": 0.10053852087728085
+     }
+    },
+    "windows": {
+     "photons": 273467,
+     "ics_pool": 24188,
+     "ics_pool_multi_hit": 7948,
+     "visible_hits": 281438,
+     "hits_outside_window": 23,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "2.0mm_100kVp_direct",
+  "n_incident": 360453,
+  "n_events": 299320,
+  "first_is_direct_or_penetration": 0.9968996391821462,
+  "events_with_one_primary_crystal": 0.9968996391821462,
+  "events_with_no_primary_crystal": 0.003100360817853802,
+  "multi_crystal_events": 0.04345516504075905,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.8269233436814231,
+      "ref": 0.8269233436814231
+     },
+     "true_count": {
+      "mine": 0.8269233436814231,
+      "ref": 0.8269233436814231
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8269233436814231,
+      "ref": 0.826934440828624
+     },
+     "true_count": {
+      "mine": 0.8176239343270829,
+      "ref": 0.8175989657458809
+     },
+     "false_counts": {
+      "mine": 0.04360623992587106,
+      "ref": 0.04355630276346708
+     },
+     "misplaced": {
+      "mine": 0.048150248098581865,
+      "ref": 0.04811605288672833
+     }
+    },
+    "windows": {
+     "photons": 298067,
+     "ics_pool": 13006,
+     "ics_pool_multi_hit": 12273,
+     "visible_hits": 310433,
+     "hits_outside_window": 10,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7827483749615067,
+      "ref": 0.7827483749615067
+     },
+     "true_count": {
+      "mine": 0.7827483749615067,
+      "ref": 0.7827483749615067
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7827372778143059,
+      "ref": 0.782626306342297
+     },
+     "true_count": {
+      "mine": 0.7564481360954133,
+      "ref": 0.7563121960422025
+     },
+     "false_counts": {
+      "mine": 0.04177798492452553,
+      "ref": 0.04178075921132575
+     },
+     "misplaced": {
+      "mine": 0.05049620755653222,
+      "ref": 0.050489188231123715
+     }
+    },
+    "windows": {
+     "photons": 282140,
+     "ics_pool": 12897,
+     "ics_pool_multi_hit": 5578,
+     "visible_hits": 287723,
+     "hits_outside_window": 5,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "2.0mm_100kVp_water20",
+  "n_incident": 360314,
+  "n_events": 299537,
+  "first_is_direct_or_penetration": 0.9975829363317387,
+  "events_with_one_primary_crystal": 0.9975829363317387,
+  "events_with_no_primary_crystal": 0.00241706366826135,
+  "multi_crystal_events": 0.06597181650347035,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.8278446022080741,
+      "ref": 0.8278446022080741
+     },
+     "true_count": {
+      "mine": 0.8278446022080741,
+      "ref": 0.8278446022080741
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8278251747087263,
+      "ref": 0.8277613414965835
+     },
+     "true_count": {
+      "mine": 0.8194741253462258,
+      "ref": 0.8194519224898283
+     },
+     "false_counts": {
+      "mine": 0.06158794828954745,
+      "ref": 0.06157129614724934
+     },
+     "misplaced": {
+      "mine": 0.06536876795730144,
+      "ref": 0.06529334057548264
+     }
+    },
+    "windows": {
+     "photons": 298277,
+     "ics_pool": 19759,
+     "ics_pool_multi_hit": 19000,
+     "visible_hits": 317459,
+     "hits_outside_window": 12,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7749351954128899,
+      "ref": 0.7749351954128899
+     },
+     "true_count": {
+      "mine": 0.7749351954128899,
+      "ref": 0.7749351954128899
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7746132539951265,
+      "ref": 0.7746215800662756
+     },
+     "true_count": {
+      "mine": 0.7448364482090621,
+      "ref": 0.7449502378480991
+     },
+     "false_counts": {
+      "mine": 0.058843120167409536,
+      "ref": 0.05887087373790638
+     },
+     "misplaced": {
+      "mine": 0.06933257853703279,
+      "ref": 0.06932466760059762
+     }
+    },
+    "windows": {
+     "photons": 279104,
+     "ics_pool": 19592,
+     "ics_pool_multi_hit": 10463,
+     "visible_hits": 289577,
+     "hits_outside_window": 6,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.0
+ },
+ {
+  "label": "2.0mm_120kVp_direct",
+  "n_incident": 360732,
+  "n_events": 299345,
+  "first_is_direct_or_penetration": 0.9971136982411599,
+  "events_with_one_primary_crystal": 0.9971136982411599,
+  "events_with_no_primary_crystal": 0.0028863017588401344,
+  "multi_crystal_events": 0.05180644406955186,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.8267744475122806,
+      "ref": 0.8267744475122806
+     },
+     "true_count": {
+      "mine": 0.8267744475122806,
+      "ref": 0.8267744475122806
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8267827639355533,
+      "ref": 0.826713460408281
+     },
+     "true_count": {
+      "mine": 0.8178065710832418,
+      "ref": 0.8177095461450606
+     },
+     "false_counts": {
+      "mine": 0.050383664326979584,
+      "ref": 0.0503781200447978
+     },
+     "misplaced": {
+      "mine": 0.05071970547901571,
+      "ref": 0.05070719128702778
+     }
+    },
+    "windows": {
+     "photons": 298247,
+     "ics_pool": 15507,
+     "ics_pool_multi_hit": 14795,
+     "visible_hits": 313184,
+     "hits_outside_window": 8,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7828775933379906,
+      "ref": 0.7828775933379906
+     },
+     "true_count": {
+      "mine": 0.7828775933379906,
+      "ref": 0.7828775933379906
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7830938203430802,
+      "ref": 0.78312431389508
+     },
+     "true_count": {
+      "mine": 0.7567667964028697,
+      "ref": 0.7567252142865063
+     },
+     "false_counts": {
+      "mine": 0.048407127729172904,
+      "ref": 0.04841267201135469
+     },
+     "misplaced": {
+      "mine": 0.05326616800065136,
+      "ref": 0.05319329694369518
+     }
+    },
+    "windows": {
+     "photons": 282487,
+     "ics_pool": 15406,
+     "ics_pool_multi_hit": 7955,
+     "visible_hits": 290452,
+     "hits_outside_window": 4,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "2.0mm_120kVp_water20",
+  "n_incident": 361159,
+  "n_events": 299470,
+  "first_is_direct_or_penetration": 0.9975256286105453,
+  "events_with_one_primary_crystal": 0.9975356463084784,
+  "events_with_no_primary_crystal": 0.0024643536915216883,
+  "multi_crystal_events": 0.07321601495976225,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.8263673340550838,
+      "ref": 0.8263673340550838
+     },
+     "true_count": {
+      "mine": 0.8263673340550838,
+      "ref": 0.8263673340550838
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8263258011014539,
+      "ref": 0.8264199424630149
+     },
+     "true_count": {
+      "mine": 0.8184539219568112,
+      "ref": 0.8184816105925645
+     },
+     "false_counts": {
+      "mine": 0.06728615374391889,
+      "ref": 0.06738306396905518
+     },
+     "misplaced": {
+      "mine": 0.06145726875198954,
+      "ref": 0.06146031916212404
+     }
+    },
+    "windows": {
+     "photons": 298435,
+     "ics_pool": 21923,
+     "ics_pool_multi_hit": 21220,
+     "visible_hits": 319893,
+     "hits_outside_window": 19,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7809635091469408,
+      "ref": 0.7809635091469408
+     },
+     "true_count": {
+      "mine": 0.7809635091469408,
+      "ref": 0.7809635091469408
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7806007880185736,
+      "ref": 0.7807309246066138
+     },
+     "true_count": {
+      "mine": 0.7538452592902295,
+      "ref": 0.75389232997101
+     },
+     "false_counts": {
+      "mine": 0.06437330926267931,
+      "ref": 0.06440099789843255
+     },
+     "misplaced": {
+      "mine": 0.06462093990869783,
+      "ref": 0.06461371503149294
+     }
+    },
+    "windows": {
+     "photons": 281921,
+     "ics_pool": 21779,
+     "ics_pool_multi_hit": 13567,
+     "visible_hits": 295507,
+     "hits_outside_window": 12,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "2.0mm_140kVp_direct",
+  "n_incident": 361774,
+  "n_events": 299235,
+  "first_is_direct_or_penetration": 0.9972529951376009,
+  "events_with_one_primary_crystal": 0.9972663625578558,
+  "events_with_no_primary_crystal": 0.0027336374421441344,
+  "multi_crystal_events": 0.057693785820508964,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.8241858176651722,
+      "ref": 0.8241858176651722
+     },
+     "true_count": {
+      "mine": 0.8241858176651722,
+      "ref": 0.8241858176651722
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8241056571229552,
+      "ref": 0.8241139495928397
+     },
+     "true_count": {
+      "mine": 0.8154842525996893,
+      "ref": 0.8154980733828302
+     },
+     "false_counts": {
+      "mine": 0.05496525455118389,
+      "ref": 0.054929320515017664
+     },
+     "misplaced": {
+      "mine": 0.050784866170255585,
+      "ref": 0.0510191418212066
+     }
+    },
+    "windows": {
+     "photons": 298140,
+     "ics_pool": 17262,
+     "ics_pool_multi_hit": 16572,
+     "visible_hits": 314906,
+     "hits_outside_window": 11,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7807056339040396,
+      "ref": 0.7807056339040396
+     },
+     "true_count": {
+      "mine": 0.7807056339040396,
+      "ref": 0.7807056339040396
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7807470962534621,
+      "ref": 0.7807470962534621
+     },
+     "true_count": {
+      "mine": 0.7548165429245883,
+      "ref": 0.7547612597920249
+     },
+     "false_counts": {
+      "mine": 0.05270417442933986,
+      "ref": 0.05273181599562157
+     },
+     "misplaced": {
+      "mine": 0.05331133565111487,
+      "ref": 0.053530840420033
+     }
+    },
+    "windows": {
+     "photons": 282454,
+     "ics_pool": 17175,
+     "ics_pool_multi_hit": 9664,
+     "visible_hits": 292140,
+     "hits_outside_window": 5,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.1
+ },
+ {
+  "label": "2.0mm_140kVp_water20",
+  "n_incident": 363337,
+  "n_events": 299177,
+  "first_is_direct_or_penetration": 0.9974897802972822,
+  "events_with_one_primary_crystal": 0.9974998078060814,
+  "events_with_no_primary_crystal": 0.0025001921939186503,
+  "multi_crystal_events": 0.07873934159377224,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.8211357500061925,
+      "ref": 0.8211357500061925
+     },
+     "true_count": {
+      "mine": 0.8211357500061925,
+      "ref": 0.8211357500061925
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8210944660191503,
+      "ref": 0.8211247409429813
+     },
+     "true_count": {
+      "mine": 0.8134486716189102,
+      "ref": 0.8135257350613893
+     },
+     "false_counts": {
+      "mine": 0.07166624923968658,
+      "ref": 0.07162221298684142
+     },
+     "misplaced": {
+      "mine": 0.05735853104238873,
+      "ref": 0.05738658264760596
+     }
+    },
+    "windows": {
+     "photons": 298334,
+     "ics_pool": 23556,
+     "ics_pool_multi_hit": 22944,
+     "visible_hits": 321595,
+     "hits_outside_window": 18,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7817177991781734,
+      "ref": 0.7817177991781734
+     },
+     "true_count": {
+      "mine": 0.7817177991781734,
+      "ref": 0.7817177991781734
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7814866088507364,
+      "ref": 0.7812746843839191
+     },
+     "true_count": {
+      "mine": 0.7569666728133936,
+      "ref": 0.756743739283365
+     },
+     "false_counts": {
+      "mine": 0.06839655746593383,
+      "ref": 0.0684048142633423
+     },
+     "misplaced": {
+      "mine": 0.059895824161891646,
+      "ref": 0.059947299077733864
+     }
+    },
+    "windows": {
+     "photons": 283943,
+     "ics_pool": 23436,
+     "ics_pool_multi_hit": 15903,
+     "visible_hits": 299885,
+     "hits_outside_window": 14,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.2
+ },
+ {
+  "label": "2.0mm_80kVp_direct",
+  "n_incident": 360425,
+  "n_events": 299200,
+  "first_is_direct_or_penetration": 0.9965741978609626,
+  "events_with_one_primary_crystal": 0.9965741978609626,
+  "events_with_no_primary_crystal": 0.003425802139037433,
+  "multi_crystal_events": 0.03016042780748663,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.8259970867725601,
+      "ref": 0.8259970867725601
+     },
+     "true_count": {
+      "mine": 0.8259970867725601,
+      "ref": 0.8259970867725601
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8260664493306513,
+      "ref": 0.826060900326004
+     },
+     "true_count": {
+      "mine": 0.8157702712076021,
+      "ref": 0.815834084761046
+     },
+     "false_counts": {
+      "mine": 0.03298328362350003,
+      "ref": 0.0330054796420892
+     },
+     "misplaced": {
+      "mine": 0.03877273414277797,
+      "ref": 0.03876627716779799
+     }
+    },
+    "windows": {
+     "photons": 297735,
+     "ics_pool": 9022,
+     "ics_pool_multi_hit": 8131,
+     "visible_hits": 305912,
+     "hits_outside_window": 9,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7845987376014427,
+      "ref": 0.7845987376014427
+     },
+     "true_count": {
+      "mine": 0.7845987376014427,
+      "ref": 0.7845987376014427
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7844988555177915,
+      "ref": 0.7845016300201152
+     },
+     "true_count": {
+      "mine": 0.7587403759450648,
+      "ref": 0.7588596795449816
+     },
+     "false_counts": {
+      "mine": 0.031978913782340294,
+      "ref": 0.03197059027536935
+     },
+     "misplaced": {
+      "mine": 0.04055836719681135,
+      "ref": 0.04054407718370032
+     }
+    },
+    "windows": {
+     "photons": 282753,
+     "ics_pool": 8933,
+     "ics_pool_multi_hit": 2239,
+     "visible_hits": 284995,
+     "hits_outside_window": 3,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.2
+ },
+ {
+  "label": "2.0mm_80kVp_water20",
+  "n_incident": 360112,
+  "n_events": 299449,
+  "first_is_direct_or_penetration": 0.9970746270650428,
+  "events_with_one_primary_crystal": 0.9970746270650428,
+  "events_with_no_primary_crystal": 0.002925372934957205,
+  "multi_crystal_events": 0.052189187474327846,
+  "thresholds": {
+   "5": {
+    "ideal": {
+     "eff": {
+      "mine": 0.826520638023726,
+      "ref": 0.826520638023726
+     },
+     "true_count": {
+      "mine": 0.826520638023726,
+      "ref": 0.826520638023726
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.8264956457990847,
+      "ref": 0.8265678455591594
+     },
+     "true_count": {
+      "mine": 0.8169041853645532,
+      "ref": 0.8169180699337983
+     },
+     "false_counts": {
+      "mine": 0.05055649353534456,
+      "ref": 0.05057315501843871
+     },
+     "misplaced": {
+      "mine": 0.05882115774230507,
+      "ref": 0.058805941066395216
+     }
+    },
+    "windows": {
+     "photons": 297631,
+     "ics_pool": 15623,
+     "ics_pool_multi_hit": 14650,
+     "visible_hits": 312383,
+     "hits_outside_window": 9,
+     "non_ics_with_2_hits": 0
+    }
+   },
+   "20": {
+    "ideal": {
+     "eff": {
+      "mine": 0.7636124316879194,
+      "ref": 0.7636124316879194
+     },
+     "true_count": {
+      "mine": 0.7636124316879194,
+      "ref": 0.7636124316879194
+     },
+     "false_counts": {
+      "mine": 0.0,
+      "ref": 0.0
+     },
+     "misplaced": {
+      "mine": 0.0,
+      "ref": 0.0
+     }
+    },
+    "ics": {
+     "eff": {
+      "mine": 0.7632764251121873,
+      "ref": 0.7632736481983383
+     },
+     "true_count": {
+      "mine": 0.7286011018794153,
+      "ref": 0.7285788865686231
+     },
+     "false_counts": {
+      "mine": 0.048576553960989914,
+      "ref": 0.04857933087483894
+     },
+     "misplaced": {
+      "mine": 0.06326014588980045,
+      "ref": 0.06326037604051458
+     }
+    },
+    "windows": {
+     "photons": 274865,
+     "ics_pool": 15472,
+     "ics_pool_multi_hit": 5003,
+     "visible_hits": 279871,
+     "hits_outside_window": 3,
+     "non_ics_with_2_hits": 0
+    }
+   }
+  },
+  "seconds": 1.2
+ }
+]

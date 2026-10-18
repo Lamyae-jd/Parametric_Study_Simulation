@@ -1,0 +1,21 @@
+[1/16] 1.2mm_100kVp_direct (8 s)
+[2/16] 1.2mm_100kVp_water20 (16 s)
+[3/16] 1.2mm_120kVp_direct (24 s)
+[4/16] 1.2mm_120kVp_water20 (218 s)
+[5/16] 1.2mm_140kVp_direct (226 s)
+[6/16] 1.2mm_140kVp_water20 (235 s)
+[7/16] 1.2mm_80kVp_direct (243 s)
+[8/16] 1.2mm_80kVp_water20 (250 s)
+[9/16] 2.0mm_100kVp_direct (258 s)
+[10/16] 2.0mm_100kVp_water20 (266 s)
+[11/16] 2.0mm_120kVp_direct (274 s)
+[12/16] 2.0mm_120kVp_water20 (484 s)
+[13/16] 2.0mm_140kVp_direct (492 s)
+[14/16] 2.0mm_140kVp_water20 (500 s)
+[15/16] 2.0mm_80kVp_direct (507 s)
+[16/16] 2.0mm_80kVp_water20 (515 s)
+1.2 mm, 5 keV: {"fp32": {"AUPRC_Primary_ICS": 0.8245545188754704, "Precision_ICS": 0.7886694616063548, "Recall_ICS": 0.7440893283811597, "Primary_F1_ICS": 0.7657310906775927, "AccTop1": 0.7959357479122803}, "retrained": {"AUPRC_Primary_ICS": 0.9445834688026775, "Precision_ICS": 0.8598937705888885, "Recall_ICS": 0.879345177544889, "Primary_F1_ICS": 0.869510703149306, "AccTop1": 0.8963828629556907}, "ics_photons": 211355}
+1.2 mm, 20 keV: {"fp32": {"AUPRC_Primary_ICS": 0.6822271051383226, "Precision_ICS": 0.660677164905886, "Recall_ICS": 0.9955754111101046, "Primary_F1_ICS": 0.7942676734057323, "AccTop1": 0.8276365162083943}, "retrained": {"AUPRC_Primary_ICS": 0.83564344836704, "Precision_ICS": 0.7399845931270316, "Recall_ICS": 0.9388949017102372, "Primary_F1_ICS": 0.8276564982389483, "AccTop1": 0.9232085898053276}, "ics_photons": 209737}
+2.0 mm, 5 keV: {"fp32": {"AUPRC_Primary_ICS": 0.8296307388904198, "Precision_ICS": 0.7890818096685549, "Recall_ICS": 0.7577879667988618, "Primary_F1_ICS": 0.7731183442632814, "AccTop1": 0.8003508823659496}, "retrained": {"AUPRC_Primary_ICS": 0.9485334676581477, "Precision_ICS": 0.861188097540015, "Recall_ICS": 0.8864350056760383, "Primary_F1_ICS": 0.8736291878108052, "AccTop1": 0.8971089062200533}, "ics_photons": 135658}
+2.0 mm, 20 keV: {"fp32": {"AUPRC_Primary_ICS": 0.681985258322696, "Precision_ICS": 0.6607052288965596, "Recall_ICS": 0.9961986784468038, "Primary_F1_ICS": 0.7944862377987584, "AccTop1": 0.8294453931249536}, "retrained": {"AUPRC_Primary_ICS": 0.8377870846430188, "Precision_ICS": 0.7391598087350538, "Recall_ICS": 0.9422600044546737, "Primary_F1_ICS": 0.8284435798935341, "AccTop1": 0.9231791521271067}, "ics_photons": 134690}
+EVAL_EXIT 0

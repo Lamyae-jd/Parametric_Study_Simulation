@@ -1,0 +1,194 @@
+{
+ "runs": [
+  {
+   "index": 0,
+   "label": "1.2mm_20keV",
+   "gamma_uuid": "7d064ee7dcfe",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 1,
+   "label": "1.2mm_30keV",
+   "gamma_uuid": "4f7a34e03829",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 2,
+   "label": "1.2mm_40keV",
+   "gamma_uuid": "3ed5d4121911",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 3,
+   "label": "1.2mm_45keV",
+   "gamma_uuid": "a762228d2615",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 4,
+   "label": "1.2mm_50keV",
+   "gamma_uuid": "e440eec8e3ba",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 5,
+   "label": "1.2mm_55keV",
+   "gamma_uuid": "88ffe760487b",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 6,
+   "label": "1.2mm_60keV",
+   "gamma_uuid": "66401ef89a50",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 7,
+   "label": "1.2mm_65keV",
+   "gamma_uuid": "09f7d94e05a0",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 8,
+   "label": "1.2mm_70keV",
+   "gamma_uuid": "c82482aacb65",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 9,
+   "label": "1.2mm_80keV",
+   "gamma_uuid": "44011758fe24",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 10,
+   "label": "1.2mm_90keV",
+   "gamma_uuid": "ab6dcd0c309a",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 11,
+   "label": "1.2mm_100keV",
+   "gamma_uuid": "1f3a2cef7401",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 12,
+   "label": "1.2mm_120keV",
+   "gamma_uuid": "7f18e58ab552",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 13,
+   "label": "1.2mm_140keV",
+   "gamma_uuid": "ec76122416e7",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 14,
+   "label": "1.2mm_160keV",
+   "gamma_uuid": "a24904971d76",
+   "optical_uuid": "b8cacfd56f78"
+  },
+  {
+   "index": 15,
+   "label": "2.0mm_20keV",
+   "gamma_uuid": "236581575a6d",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 16,
+   "label": "2.0mm_30keV",
+   "gamma_uuid": "905f0c6257a5",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 17,
+   "label": "2.0mm_40keV",
+   "gamma_uuid": "0e4db41e5e16",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 18,
+   "label": "2.0mm_45keV",
+   "gamma_uuid": "524707c8d144",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 19,
+   "label": "2.0mm_50keV",
+   "gamma_uuid": "26f8063cb4da",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 20,
+   "label": "2.0mm_55keV",
+   "gamma_uuid": "a7009f5465f1",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 21,
+   "label": "2.0mm_60keV",
+   "gamma_uuid": "2a8cc7fd7bac",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 22,
+   "label": "2.0mm_65keV",
+   "gamma_uuid": "b02318be9ecb",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 23,
+   "label": "2.0mm_70keV",
+   "gamma_uuid": "3e0b27205273",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 24,
+   "label": "2.0mm_80keV",
+   "gamma_uuid": "f9dc57b528d6",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 25,
+   "label": "2.0mm_90keV",
+   "gamma_uuid": "577f8c0dd4e9",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 26,
+   "label": "2.0mm_100keV",
+   "gamma_uuid": "96c059cec8f1",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 27,
+   "label": "2.0mm_120keV",
+   "gamma_uuid": "12a318412b5c",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 28,
+   "label": "2.0mm_140keV",
+   "gamma_uuid": "6a01865925c0",
+   "optical_uuid": "89946b8e94b4"
+  },
+  {
+   "index": 29,
+   "label": "2.0mm_160keV",
+   "gamma_uuid": "dab082ff1662",
+   "optical_uuid": "89946b8e94b4"
+  }
+ ],
+ "train": {
+  "samples": 6000000,
+  "ics": 486780,
+  "ics_pct": 8.113
+ },
+ "val": {
+  "samples": 1200000,
+  "ics": 97330,
+  "ics_pct": 8.110833333333334
+ }
+}

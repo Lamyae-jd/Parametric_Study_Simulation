@@ -1,0 +1,62 @@
+StudentNet (16, 32, 32): 2338 params | train 6,000,000 | val 1,200,000 (ICS 97,330)
+ep  0 | loss 0.00016 | lr 1.7e-04 | AUPRC_Primary_ICS 0.6525 Precision_ICS 0.5375 Recall_ICS 0.9990 Primary_F1_ICS 0.6989 AccTop1 0.7483 | 26s *
+ep  1 | loss 0.00009 | lr 3.3e-04 | AUPRC_Primary_ICS 0.7691 Precision_ICS 0.7414 Recall_ICS 0.7140 Primary_F1_ICS 0.7275 AccTop1 0.8316 | 26s *
+ep  2 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8029 Precision_ICS 0.7530 Recall_ICS 0.7512 Primary_F1_ICS 0.7521 AccTop1 0.8522 | 25s *
+ep  3 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8299 Precision_ICS 0.7829 Recall_ICS 0.7418 Primary_F1_ICS 0.7618 AccTop1 0.8609 | 27s *
+ep  4 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8368 Precision_ICS 0.7779 Recall_ICS 0.7490 Primary_F1_ICS 0.7632 AccTop1 0.8643 | 27s *
+ep  5 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8470 Precision_ICS 0.7857 Recall_ICS 0.7530 Primary_F1_ICS 0.7690 AccTop1 0.8659 | 30s *
+ep  6 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8451 Precision_ICS 0.7822 Recall_ICS 0.7550 Primary_F1_ICS 0.7684 AccTop1 0.8659 | 30s
+ep  7 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8410 Precision_ICS 0.7784 Recall_ICS 0.7563 Primary_F1_ICS 0.7672 AccTop1 0.8648 | 29s
+ep  8 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8554 Precision_ICS 0.7877 Recall_ICS 0.7540 Primary_F1_ICS 0.7705 AccTop1 0.8698 | 29s *
+ep  9 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8578 Precision_ICS 0.7941 Recall_ICS 0.7522 Primary_F1_ICS 0.7726 AccTop1 0.8706 | 30s *
+ep 10 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8592 Precision_ICS 0.7957 Recall_ICS 0.7556 Primary_F1_ICS 0.7751 AccTop1 0.8724 | 30s *
+ep 11 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8620 Precision_ICS 0.7986 Recall_ICS 0.7545 Primary_F1_ICS 0.7759 AccTop1 0.8723 | 30s *
+ep 12 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8598 Precision_ICS 0.7998 Recall_ICS 0.7474 Primary_F1_ICS 0.7727 AccTop1 0.8696 | 27s
+ep 13 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8661 Precision_ICS 0.8149 Recall_ICS 0.7422 Primary_F1_ICS 0.7769 AccTop1 0.8760 | 26s *
+ep 14 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8676 Precision_ICS 0.8069 Recall_ICS 0.7515 Primary_F1_ICS 0.7782 AccTop1 0.8744 | 26s *
+ep 15 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8672 Precision_ICS 0.8031 Recall_ICS 0.7524 Primary_F1_ICS 0.7769 AccTop1 0.8742 | 26s
+ep 16 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8681 Precision_ICS 0.8022 Recall_ICS 0.7575 Primary_F1_ICS 0.7792 AccTop1 0.8777 | 28s *
+ep 17 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8707 Precision_ICS 0.8028 Recall_ICS 0.7578 Primary_F1_ICS 0.7797 AccTop1 0.8774 | 27s *
+ep 18 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8657 Precision_ICS 0.8046 Recall_ICS 0.7510 Primary_F1_ICS 0.7769 AccTop1 0.8750 | 28s
+ep 19 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8718 Precision_ICS 0.8001 Recall_ICS 0.7571 Primary_F1_ICS 0.7780 AccTop1 0.8754 | 26s *
+ep 20 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8634 Precision_ICS 0.8038 Recall_ICS 0.7487 Primary_F1_ICS 0.7753 AccTop1 0.8734 | 26s
+ep 21 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8713 Precision_ICS 0.8105 Recall_ICS 0.7504 Primary_F1_ICS 0.7793 AccTop1 0.8782 | 26s
+ep 22 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8729 Precision_ICS 0.8081 Recall_ICS 0.7547 Primary_F1_ICS 0.7805 AccTop1 0.8780 | 26s *
+ep 23 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8692 Precision_ICS 0.8040 Recall_ICS 0.7579 Primary_F1_ICS 0.7803 AccTop1 0.8783 | 27s
+ep 24 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8703 Precision_ICS 0.8035 Recall_ICS 0.7581 Primary_F1_ICS 0.7801 AccTop1 0.8769 | 27s
+ep 25 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8731 Precision_ICS 0.8005 Recall_ICS 0.7607 Primary_F1_ICS 0.7801 AccTop1 0.8791 | 25s *
+ep 26 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8683 Precision_ICS 0.7922 Recall_ICS 0.7634 Primary_F1_ICS 0.7776 AccTop1 0.8748 | 26s
+ep 27 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8699 Precision_ICS 0.8012 Recall_ICS 0.7595 Primary_F1_ICS 0.7798 AccTop1 0.8779 | 26s
+ep 28 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8749 Precision_ICS 0.8142 Recall_ICS 0.7509 Primary_F1_ICS 0.7813 AccTop1 0.8793 | 27s *
+ep 29 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8745 Precision_ICS 0.8021 Recall_ICS 0.7596 Primary_F1_ICS 0.7803 AccTop1 0.8779 | 28s
+ep 30 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8755 Precision_ICS 0.8122 Recall_ICS 0.7525 Primary_F1_ICS 0.7812 AccTop1 0.8787 | 27s *
+ep 31 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8713 Precision_ICS 0.8049 Recall_ICS 0.7576 Primary_F1_ICS 0.7805 AccTop1 0.8788 | 26s
+ep 32 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8738 Precision_ICS 0.8035 Recall_ICS 0.7581 Primary_F1_ICS 0.7802 AccTop1 0.8775 | 27s
+ep 33 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8754 Precision_ICS 0.8048 Recall_ICS 0.7575 Primary_F1_ICS 0.7804 AccTop1 0.8781 | 27s
+ep 34 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8721 Precision_ICS 0.8112 Recall_ICS 0.7507 Primary_F1_ICS 0.7798 AccTop1 0.8774 | 27s
+ep 35 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8759 Precision_ICS 0.8156 Recall_ICS 0.7508 Primary_F1_ICS 0.7819 AccTop1 0.8794 | 27s *
+ep 36 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8759 Precision_ICS 0.8077 Recall_ICS 0.7562 Primary_F1_ICS 0.7811 AccTop1 0.8795 | 27s *
+ep 37 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8716 Precision_ICS 0.8018 Recall_ICS 0.7610 Primary_F1_ICS 0.7808 AccTop1 0.8791 | 27s
+ep 38 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8750 Precision_ICS 0.8084 Recall_ICS 0.7558 Primary_F1_ICS 0.7812 AccTop1 0.8788 | 26s
+ep 39 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8720 Precision_ICS 0.8077 Recall_ICS 0.7552 Primary_F1_ICS 0.7805 AccTop1 0.8780 | 26s
+ep 40 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8763 Precision_ICS 0.8122 Recall_ICS 0.7536 Primary_F1_ICS 0.7818 AccTop1 0.8793 | 26s *
+ep 41 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8758 Precision_ICS 0.8044 Recall_ICS 0.7595 Primary_F1_ICS 0.7813 AccTop1 0.8796 | 26s
+ep 42 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8728 Precision_ICS 0.8051 Recall_ICS 0.7562 Primary_F1_ICS 0.7799 AccTop1 0.8762 | 27s
+ep 43 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8757 Precision_ICS 0.8075 Recall_ICS 0.7595 Primary_F1_ICS 0.7827 AccTop1 0.8805 | 27s
+ep 44 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8739 Precision_ICS 0.7956 Recall_ICS 0.7661 Primary_F1_ICS 0.7806 AccTop1 0.8774 | 27s
+ep 45 | loss 0.00008 | lr 5.0e-04 | AUPRC_Primary_ICS 0.8755 Precision_ICS 0.8090 Recall_ICS 0.7558 Primary_F1_ICS 0.7815 AccTop1 0.8797 | 27s
+ep 46 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8763 Precision_ICS 0.8051 Recall_ICS 0.7620 Primary_F1_ICS 0.7830 AccTop1 0.8794 | 27s
+ep 47 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8776 Precision_ICS 0.8124 Recall_ICS 0.7571 Primary_F1_ICS 0.7838 AccTop1 0.8808 | 27s *
+ep 48 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8793 Precision_ICS 0.8183 Recall_ICS 0.7537 Primary_F1_ICS 0.7847 AccTop1 0.8818 | 27s *
+ep 49 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8791 Precision_ICS 0.8185 Recall_ICS 0.7511 Primary_F1_ICS 0.7833 AccTop1 0.8803 | 27s
+ep 50 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8776 Precision_ICS 0.8070 Recall_ICS 0.7636 Primary_F1_ICS 0.7847 AccTop1 0.8819 | 27s
+ep 51 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8782 Precision_ICS 0.8069 Recall_ICS 0.7638 Primary_F1_ICS 0.7847 AccTop1 0.8823 | 26s
+ep 52 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8806 Precision_ICS 0.8116 Recall_ICS 0.7598 Primary_F1_ICS 0.7849 AccTop1 0.8819 | 25s *
+ep 53 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8796 Precision_ICS 0.8109 Recall_ICS 0.7590 Primary_F1_ICS 0.7841 AccTop1 0.8813 | 25s
+ep 54 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8775 Precision_ICS 0.8163 Recall_ICS 0.7548 Primary_F1_ICS 0.7844 AccTop1 0.8816 | 26s
+ep 55 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8797 Precision_ICS 0.8144 Recall_ICS 0.7562 Primary_F1_ICS 0.7843 AccTop1 0.8816 | 27s
+ep 56 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8772 Precision_ICS 0.8080 Recall_ICS 0.7634 Primary_F1_ICS 0.7851 AccTop1 0.8811 | 27s
+ep 57 | loss 0.00008 | lr 2.5e-04 | AUPRC_Primary_ICS 0.8799 Precision_ICS 0.8183 Recall_ICS 0.7529 Primary_F1_ICS 0.7843 AccTop1 0.8820 | 26s
+ep 58 | loss 0.00008 | lr 1.3e-04 | AUPRC_Primary_ICS 0.8797 Precision_ICS 0.8223 Recall_ICS 0.7501 Primary_F1_ICS 0.7845 AccTop1 0.8819 | 26s
+ep 59 | loss 0.00008 | lr 1.3e-04 | AUPRC_Primary_ICS 0.8819 Precision_ICS 0.8140 Recall_ICS 0.7580 Primary_F1_ICS 0.7850 AccTop1 0.8825 | 27s *
+meilleur AUPRC_Primary_ICS (val) 0.8819 → /data/jdil1901/Documents/Parametric_Simulation/example/ICS_Optical_v2/studies/05_correction_modele/checkpoints/small_v2_retrained_best.pt

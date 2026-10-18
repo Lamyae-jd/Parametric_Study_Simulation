@@ -1,0 +1,48 @@
+{
+ "5": {
+  "photons": 330718,
+  "fp32": {
+   "ideal": {
+    "changes": 0,
+    "pct": 0.0
+   },
+   "zero": {
+    "changes": 0,
+    "pct": 0.0
+   }
+  },
+  "retrained": {
+   "ideal": {
+    "changes": 1035,
+    "pct": 0.31295544844852713
+   },
+   "zero": {
+    "changes": 1046,
+    "pct": 0.3162815450020864
+   }
+  }
+ },
+ "20": {
+  "photons": 179816,
+  "fp32": {
+   "ideal": {
+    "changes": 0,
+    "pct": 0.0
+   },
+   "zero": {
+    "changes": 0,
+    "pct": 0.0
+   }
+  },
+  "retrained": {
+   "ideal": {
+    "changes": 651,
+    "pct": 0.36203674867642477
+   },
+   "zero": {
+    "changes": 659,
+    "pct": 0.36648574097966813
+   }
+  }
+ }
+}
